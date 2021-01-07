@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <style type="text/css">
+        BODY {
+            font-family: Neue Haas Unica Pro;
+            font-style: normal;
+            font-weight: normal;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-#0b2343">
+        <img src="images/Logo.svg" style="margin-right: 5px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gam.html">Experiencia GAM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Biblioteca de Políticas</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                    style="font-weight: normal; font-size: 12px;">
+            </form>
+            <img src="images/notificationoff.svg" style="margin-right: 9px; margin-left: 21px;">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    style="margin-top: -23px; margin-right: 20px;">
+                    <img src="images/MEX.svg" style="margin-right: 11.5px;">Español
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item idioma">Idioma</a>
+                    <div style="width: 229px; height: 68px; align-items: center;"><a class="dropdown-item content"
+                            href="#" s><img src="images/MEX.svg " style="margin-right: 10px;">Español</a></div>
+                    <div style="width: 229px; height: 68px; align-items: center;"><a class="dropdown-item content"
+                            href="#"><img src="images/united-states-of-america.svg"
+                                style="margin-right: 10px;">Ingles</a></div>
+                </div>
+            </li>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"
+                style="font-weight: normal; font-size: 12px;">Iniciar sesión</button>
+        </div>
+    </nav>
+
+
+    <div class="footer">
+        <footer class="text-white" style="background: #0B2343 !important;">
+            <div class="container2 p-4">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <p class="bigtex">Llámanos (55) 5133 4000 o escríbenos por WhatsApp <svg width="17" height="17"
+                                viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.5169 2.47126C12.9224 0.876246 10.7964 0 8.53246 0C3.87064 0 0.073031 3.77957 0.0689737 8.41923C0.0689737 9.90522 0.458473 11.3508 1.1969 12.6309L0 16.9959L4.48735 15.8249C5.72482 16.4952 7.11647 16.8506 8.53246 16.8506H8.53652C13.1983 16.8506 16.9959 13.071 17 8.42731C16.9959 6.17814 16.1155 4.06223 14.5169 2.47126ZM8.53246 15.4252C7.26659 15.4252 6.02912 15.086 4.94988 14.448L4.69427 14.2945L2.0327 14.9891L2.74272 12.4047L2.57637 12.1382C1.87041 11.0237 1.50119 9.73562 1.50119 8.41519C1.50119 4.56294 4.65776 1.42138 8.53652 1.42138C10.415 1.42138 12.18 2.15225 13.5107 3.47268C14.8375 4.79714 15.5678 6.55368 15.5678 8.42327C15.5637 12.2876 12.4072 15.4252 8.53246 15.4252ZM12.3909 10.1838C12.18 10.0788 11.1413 9.57006 10.9465 9.49738C10.7518 9.42873 10.6098 9.39239 10.4718 9.60237C10.3298 9.81234 9.92411 10.2888 9.80239 10.4261C9.68067 10.5674 9.55489 10.5836 9.34391 10.4786C9.13294 10.3736 8.45131 10.1515 7.64391 9.43277C7.01504 8.87553 6.59308 8.18503 6.4673 7.97505C6.34558 7.76508 6.45513 7.65201 6.56062 7.54702C6.65394 7.45415 6.7716 7.30071 6.87709 7.17957C6.98258 7.05843 7.01909 6.96959 7.08807 6.82826C7.15704 6.68693 7.12458 6.56579 7.07184 6.4608C7.01909 6.35581 6.59714 5.31805 6.41862 4.8981C6.24821 4.48622 6.07375 4.54275 5.94391 4.53871C5.8222 4.53064 5.68019 4.53064 5.53819 4.53064C5.39618 4.53064 5.16897 4.58313 4.97422 4.79311C4.77947 5.00308 4.2358 5.51187 4.2358 6.54964C4.2358 7.5874 4.99451 8.58479 5.1 8.72612C5.20549 8.86745 6.58902 10.9914 8.71098 11.904C9.21408 12.1221 9.60764 12.2513 9.91599 12.3482C10.4232 12.5097 10.8816 12.4855 11.2468 12.433C11.6525 12.3724 12.4964 11.9242 12.6749 11.4316C12.8494 10.9389 12.8494 10.519 12.7967 10.4302C12.7439 10.3413 12.6019 10.2888 12.3909 10.1838Z"
+                                    fill="white" />
+                            </svg>
+                        </p>
+                        <a class="textf">Costo de llamada local Ver números de contacto para otros países</a>
+                        <button style="font-size: 12px; line-height: 28px; margin-top: 15px;"><svg width="15"
+                                height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.57128 10.7119C2.92993 10.3199 1 8.32777 1 5.82369C1 3.21354 3.15539 1 5.44606 1H9.63961C11.9303 1 14 3.23662 14 5.85138C14 8.43848 11.9303 10.7028 9.63961 10.7028H8.31842L4.56677 14V10.7119H4.57128Z"
+                                    stroke="white" stroke-width="0.764706" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            CHAT EN VIVO</button>
+                            <div style="margin-top: 70px;">
+                                <a class="textf2" style="margin-right: 37px;">Contacto Aerobot</a>
+                                <a class="textf2">Siguenos en</a>
+                                <div>
+                                    <img src="images/footer/icon/1.svg" style="margin-right: 20px;">
+                                    <img src="images/footer/icon/2.svg" style="margin-right: 100px;">
+                                    <img src="images/footer/icon/3.svg" style="margin-right: 20px;">
+                                    <img src="images/footer/icon/4.svg" style="margin-right: 20px;">
+                                    <img src="images/footer/icon/5.svg" style="margin-right: 20px;">
+                                    <img src="images/footer/icon/6.svg">           
+                                </div>
+                            </div>
+                            
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3">
+                        <a style="font-size: 20px; margin-bottom: 23px;">¿Tienes un vuelo?</a>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group58.svg" style="margin-right: 15px;">Facturación</a>
+                            </li>
+                            <li>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group2.svg" style="margin-right: 10px;">Reglas de equipaje</a>
+                            </li>
+                            <li>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group3.svg" style="margin-right: 10px;">Información de pasajeros</a>
+                            </li>
+                            <li>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group4.svg" style="margin-right: 15px;">Servicios especiales</a>
+                            </li>
+                            <li>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group5.svg" style="margin-right: 12px;">Reembolsos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <a style="font-size: 12px;">Sobre Aeroméxico</a>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Inversionistas</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Alianzas comerciales</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Compliance</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Carreras Aeronáuticas</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Bolsa de trabajo</a>
+                            </li>
+                            <li>
+                                <a style="font-size: 12px; margin-top: 55px;">Aceptamos</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px; margin-top: 15px;">Tarjetas de crédito y débito</a>
+                            </li>
+                            <div>
+                                <img src="images/footer/visa/1.svg" style="margin-right: 15px;">
+                                <img src="images/footer/visa/2.svg" style="margin-right: 15px;">
+                                <img src="images/footer/visa/3.svg" style="margin-right: 15px;">
+                                <img src="images/footer/visa/4.svg">
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <a style="font-size: 12px;">De tu interés</a>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Últimas noticias</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Vuela con nosotros</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Nuestra flota</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Tiendas de viaje</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Viajes en grupo</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px; margin-top: 100px;">Pago electrónico</a>
+                            </li>
+                            <div>
+                                <img src="images/footer/visa/1.svg" style="margin-right: 15px;">
+                                <img src="images/footer/electro/paypal.svg" style="margin-right: 15px; height: 16px;">
+                                <img src="images/footer/electro/mc_vrt_rev.svg" style="height: 30px;">
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <a style="font-size: 12px;">Contacto</a>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Servicio al cliente</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Denuncias corporativas</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Gran Plan</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Club Premier</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px;">Aerobot</a>
+                            </li>
+                            <li>
+                                <a class="textcol3" style="font-size: 12px; margin-top: 100px;">Otros</a>
+                            </li>
+                            <div>
+                                <img src="images/footer/otros/1.svg" style="margin-right: 15px;">
+                                <img src="images/footer/otros/2.svg" style="margin-right: 15px;">
+                                <img src="images/footer/otros/3.svg">
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3" style="background-color:#0B2343;">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <a class="textf">© 2019 Aeroméxico. Todos los derechos reservados l Legal l Aviso de privacidad l Sitio accesible</a>
+                    </div>
+                    <div>
+                        <a class="textf">Certificados por<img src="images/PCI1.svg" style="margin-left: 10px;"></a>
+                    </div>
+               </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

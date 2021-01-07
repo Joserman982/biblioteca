@@ -1,0 +1,272 @@
+@font-face {
+  font-family: Neue Haas Unica Pro;
+  src: url(Fuentes/NeueHaasUnicaPro.ttf);
+}
+
+.card-title {
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  color: #0B2343;
+}
+
+h4{
+  font-weight: normal !important;
+  font-size: 32px !important;
+  display: flex !important;
+}
+
+.card-text {
+  text-align: left !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #0B2343 !important;
+}
+
+.card-link{
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-decoration-line: underline !important;
+  color: #007CC2 !important;
+}
+
+.card-link2{
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 20px !important;
+  color: #666666 !important;
+}
+
+
+h1,.h1 {  
+  font-weight: normal !important;
+  font-size: 8.219vw !important;
+}
+
+::placeholder {
+  color: #ffffff !important;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-sizing: border-box !important;
+  border-radius: 25px !important;
+  color: #FFFFFF !important;
+}
+
+.textcol3{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.container2{
+  margin-left: 5% !important;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-sizing: border-box !important;
+  border-radius: 25px !important;
+  color: #FFFFFF !important;
+}
+
+.navbar {
+  background: #0b2343 !important;
+}
+.content{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0B2343;
+}
+.idioma{
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  color: #999999 !important;
+}
+
+div a {
+  color: #007cc2;
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.nav-link1 {
+  margin-top: 25px;
+  margin-left: 10px;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-align: center !important;
+  letter-spacing: 1px !important;
+  color: #007CC2 !important;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 35px;
+}
+
+
+
+.nav-link1.active {
+  color: #FFFFFF !important;
+  background: #007CC2 !important;
+  border-radius: 35px !important;
+  text-align: center !important;
+}
+
+.cambiar2 {
+  color: aliceblue;
+}
+
+button {
+  outline: none !important;
+}
+
+button:hover {
+  background: #e91b2f;
+}
+
+.idioma {
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  background: #0b2343;
+}
+
+h7 {
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1B8198;
+}
+
+
+
+footer button {
+  width: 160px;
+  height: 50px;
+  background: #004990;
+  border-radius: 25px;
+  border: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.cambiar2:hover {
+  color: #e91b2f;
+}
+
+.cambiar:hover {
+  color: #e91b2f;
+}
+
+.iconpdf {
+  float: left;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+section {
+  justify-content: center;
+}
+
+.section {
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  top: -30px;
+}
+
+.allpolitics {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0B2343;
+}
+
+tbody th {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  color: #0B2343;
+}
+.page-item{
+  margin-left: 10px;
+}
+tbody td {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #999999;
+}
+
+td a {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 35px;
+}
+
+h1 {
+  font-size: 16em;
+  line-height: 86px;
+  color: #FFFFFF;
+}
+
+
+.nav-link {
+  border-radius: 50px !important;
+  color: #FFFFFF !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.bigtex{
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.textvuelos{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.textf {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.7;
+}
+
+.textf2{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color:  #FFFFFF;
+}
+
