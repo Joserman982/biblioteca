@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Neue Haas Unica Pro;
+  src: url(Fuentes/NeueHaasUnicaPro.ttf);
+}
+
+input{
+  align-content: center;
+  margin: none !important;
+  font-size: 6vw !important;
+  background: #004990 !important;
+  border: none !important;
+  outline: none !important;
+  color: white !important;
+  border-bottom: 0.5px solid#FFFFFF !important;
+}
+
+input.is-focused {
+  outline: none !important;
+}
+
+::-webkit-input-placeholder { color: rgb(255, 255, 255) !important; }
+
+.close{
+  color: #FFFFFF !important;
+}

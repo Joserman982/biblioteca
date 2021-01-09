@@ -16,6 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <base href="hf.html" />
     <style type="text/css">
         BODY {
             font-family: Neue Haas Unica Pro;
@@ -29,40 +30,49 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-#0b2343">
         <img src="images/Logo.svg" style="margin-right: 5px;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="noticias.html">Noticias<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gam.html">Experiencia GAM</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Biblioteca de Políticas</a>
-              </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Busca un artículo" aria-label="Search" style="font-weight: normal; font-size: 12px;">
-        </form>
-        <img src="images/notificationoff.svg"style="margin-right: 9px; margin-left: 21px;">
-        
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: -23px; margin-right: 20px;">
-                <img src="images/MEX.svg" style="margin-right: 11.5px;">Español
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item idioma">Idioma</a>
-                <div style="width: 229px; height: 68px; align-items: center;"><a class="dropdown-item content" href="#"s><img src="images/MEX.svg " style="margin-right: 10px;">Español</a></div>
-                <div style="width: 229px; height: 68px; align-items: center;"><a class="dropdown-item content" href="#"><img src="images/united-states-of-america.svg" style="margin-right: 10px;">Ingles</a></div>
-            </div>
-          </li>
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="font-weight: normal; font-size: 12px;">Iniciar sesión</button>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gam.html">Experiencia GAM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Biblioteca de Políticas</a>
+                </li>
+            </ul>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="button"
+                style="font-weight: normal; font-size: 12px;" data-toggle="modal"
+                data-target=".bd-example-modal-lg"><img src="images/search.svg" style="margin-right: 8px;">Busca un
+                artículo</button>
+
+            <img src="images/notificationoff.svg" style="margin-right: 9px; margin-left: 21px;">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    style="margin-top: -23px; margin-right: 20px;">
+                    <img src="images/MEX.svg" style="margin-right: 11.5px;">Español
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="idioma">Idioma</div>
+                    <div style="width: 229px; height: 68px; align-items: center;"><a class="dropdown-item content"
+                            href="#" s><img src="images/MEX.svg " style="margin-right: 10px;">Español</a></div>
+                    <div style="width: 229px; height: 68px; align-items: center;"><a class="dropdown-item content"
+                            href="#"><img src="images/united-states-of-america.svg"
+                                style="margin-right: 10px;">Ingles</a></div>
+                </div>
+            </li>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"
+                style="font-weight: normal; font-size: 12px;">Iniciar sesión</button>
         </div>
-      </nav>
+    </nav>
 
     <div class="p-5 mb-1 bg text-white" style="background: #004990;">
         <h1 class="text-center">Experiencia GAM</h1>
@@ -185,17 +195,17 @@
                         <tr>
                             <th>SkyTeam: 15 years of connecting the world</th>
                             <td>Jul 22, 2015</td>
-                            <td><a href="#" class="cambiar">Descargar</a></td>
+                            <td><a href="#" class="cambiar1">CONOCE MÁS</a></td>
                         </tr>
                         <tr>
                             <th>Aeromexico announces new flight from Monterrey to Tijuana</th>
                             <td>Jul 22, 2015</td>
-                            <td><a href="#" class="cambiar">Descargar</a></td>
+                            <td><a href="#" class="cambiar1">CONOCE MÁS</a></td>
                         </tr>
                         <tr>
                             <th>Aeromexico: Connecting Queretaro with the world</th>
                             <td>Jul 22, 2015</td>
-                            <td><a href="#" class="cambiar">Descargar</a></td>
+                            <td><a href="#" class="cambiar1">CONOCE MÁS</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -297,19 +307,19 @@
                                     stroke-linejoin="round" />
                             </svg>
                             CHAT EN VIVO</button>
-                            <div style="margin-top: 70px;">
-                                <a class="textf2" style="margin-right: 37px;">Contacto Aerobot</a>
-                                <a class="textf2">Siguenos en</a>
-                                <div>
-                                    <img src="images/footer/icon/1.svg" style="margin-right: 20px;">
-                                    <img src="images/footer/icon/2.svg" style="margin-right: 100px;">
-                                    <img src="images/footer/icon/3.svg" style="margin-right: 20px;">
-                                    <img src="images/footer/icon/4.svg" style="margin-right: 20px;">
-                                    <img src="images/footer/icon/5.svg" style="margin-right: 20px;">
-                                    <img src="images/footer/icon/6.svg">           
-                                </div>
+                        <div style="margin-top: 70px;">
+                            <a class="textf2" style="margin-right: 37px;">Contacto Aerobot</a>
+                            <a class="textf2">Siguenos en</a>
+                            <div>
+                                <img src="images/footer/icon/1.svg" style="margin-right: 20px;">
+                                <img src="images/footer/icon/2.svg" style="margin-right: 100px;">
+                                <img src="images/footer/icon/3.svg" style="margin-right: 20px;">
+                                <img src="images/footer/icon/4.svg" style="margin-right: 20px;">
+                                <img src="images/footer/icon/5.svg" style="margin-right: 20px;">
+                                <img src="images/footer/icon/6.svg">
                             </div>
-                            
+                        </div>
+
                     </div>
                     <!--Grid column-->
 
@@ -318,19 +328,24 @@
                         <a style="font-size: 20px; margin-bottom: 23px;">¿Tienes un vuelo?</a>
                         <ul class="list-unstyled mb-0">
                             <li>
-                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group58.svg" style="margin-right: 15px;">Facturación</a>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group58.svg"
+                                        style="margin-right: 15px;">Facturación</a>
                             </li>
                             <li>
-                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group2.svg" style="margin-right: 10px;">Reglas de equipaje</a>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group2.svg"
+                                        style="margin-right: 10px;">Reglas de equipaje</a>
                             </li>
                             <li>
-                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group3.svg" style="margin-right: 10px;">Información de pasajeros</a>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group3.svg"
+                                        style="margin-right: 10px;">Información de pasajeros</a>
                             </li>
                             <li>
-                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group4.svg" style="margin-right: 15px;">Servicios especiales</a>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group4.svg"
+                                        style="margin-right: 15px;">Servicios especiales</a>
                             </li>
                             <li>
-                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group5.svg" style="margin-right: 12px;">Reembolsos</a>
+                                <a class="textvuelos" style="margin-bottom: 15px;"><img src="images/footer/Group5.svg"
+                                        style="margin-right: 12px;">Reembolsos</a>
                             </li>
                         </ul>
                     </div>
@@ -357,7 +372,8 @@
                                 <a style="font-size: 12px; margin-top: 55px;">Aceptamos</a>
                             </li>
                             <li>
-                                <a class="textcol3" style="font-size: 12px; margin-top: 15px;">Tarjetas de crédito y débito</a>
+                                <a class="textcol3" style="font-size: 12px; margin-top: 15px;">Tarjetas de crédito y
+                                    débito</a>
                             </li>
                             <div>
                                 <img src="images/footer/visa/1.svg" style="margin-right: 15px;">
@@ -430,12 +446,13 @@
             <div class="p-3" style="background-color:#0B2343;">
                 <div class="d-flex justify-content-between">
                     <div>
-                        <a class="textf">© 2019 Aeroméxico. Todos los derechos reservados l Legal l Aviso de privacidad l Sitio accesible</a>
+                        <a class="textf">© 2019 Aeroméxico. Todos los derechos reservados l Legal l Aviso de privacidad
+                            l Sitio accesible</a>
                     </div>
                     <div>
                         <a class="textf">Certificados por<img src="images/PCI1.svg" style="margin-left: 10px;"></a>
                     </div>
-               </div>
+                </div>
             </div>
         </footer>
     </div>

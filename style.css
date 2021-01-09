@@ -24,6 +24,10 @@ h4{
   color: #0B2343 !important;
 }
 
+.card-link:hover{
+  color: #e91b2f !important;
+}
+
 .card-link{
   font-weight: normal !important;
   font-size: 14px !important;
@@ -45,9 +49,7 @@ h1,.h1 {
   font-size: 8.219vw !important;
 }
 
-::placeholder {
-  color: #ffffff !important;
-}
+
 
 .btn {
   background: rgba(255, 255, 255, 0.05) !important;
@@ -65,13 +67,7 @@ h1,.h1 {
   margin-left: 5% !important;
 }
 
-input {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  box-sizing: border-box !important;
-  border-radius: 25px !important;
-  color: #FFFFFF !important;
-}
+
 
 .navbar {
   background: #0b2343 !important;
@@ -85,14 +81,16 @@ input {
   color: #0B2343;
 }
 .idioma{
-  font-weight: normal !important;
-  font-size: 14px !important;
-  line-height: 30px !important;
-  display: flex !important;
-  align-items: center !important;
-  letter-spacing: 1px !important;
-  text-transform: uppercase !important;
-  color: #999999 !important;
+  margin-left: 15px;
+  margin-bottom: 6.5px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
 }
 
 div a {
@@ -103,6 +101,7 @@ div a {
 }
 
 .nav-link1 {
+  text-decoration: none !important;
   margin-top: 25px;
   margin-left: 10px;
   font-weight: normal !important;
@@ -117,6 +116,11 @@ div a {
   border-radius: 35px;
 }
 
+
+.nav-link1:hover{
+  background: #0B2343;
+  color: #FFFFFF !important;
+}
 
 
 .nav-link1.active {
@@ -138,14 +142,7 @@ button:hover {
   background: #e91b2f;
 }
 
-.idioma {
-  margin-right: 5px;
-  margin-left: 5px;
-  border: none;
-  border-radius: 15px;
-  color: #ffffff;
-  background: #0b2343;
-}
+
 
 h7 {
   font-size: 14px;
@@ -173,6 +170,16 @@ footer button {
   color: #e91b2f;
 }
 
+.cambiar1{
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.cambiar1:hover {
+  text-decoration: none;;
+  color: #e91b2f;
+}
+
 .cambiar:hover {
   color: #e91b2f;
 }
@@ -186,6 +193,12 @@ footer button {
 
 section {
   justify-content: center;
+}
+
+.sectionmodal{
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .section {
